@@ -32,7 +32,7 @@
         </div>
 
 
-        <div class="basis-4/6 m-0 p-0">
+        <div class="md:basis-4/6 m-0 p-0">
           <div class="flex flex-col">
             <nav class="relative container mx-auto p-6 border-b-2 border-gray-100">
                 <div class="flex flex-row item-center justify-between mx-auto">
@@ -48,31 +48,31 @@
                 </div>
             </nav>
             <div class="max-auto py-8 px-5">
-                <h1 class="text-3xl font-bold mb-3 pl-5">Get Your Pacel Delivered</h1>
-                <p class="text-sm mb-5 pl-5">Fast and effortless delivery made posible </p>
-                <div class="rounded w-3/4 py-12 px-5 my-8 shadow-xl">
+                <h1 class="md:text-3xl font-bold md:mb-3 md:pl-5">Get Your Pacel Delivered</h1>
+                <p class="text-sm md:mb-5 md:pl-5">Fast and effortless delivery made posible </p>
+                <div class="rounded md:w-3/4 md:py-12 md:px-5 md:my-8 shadow-xl max-sm:w-full">
                   <form class="form">
-                    <div class="mx-auto mb-5">
+                    <div class="mx-auto md:mb-5">
                       <label class="mb-2 text-sm">From</label>
                       <div class="relative">
-                          <input type="text" class="form-input w-full px-12 py-2 rounded mb-3 text-sm font-bold" placeholder="">
-                          <Icon name="uil:search" class="absolute left-0 top-0 mt-3 ml-5" />
+                          <input type="text" class="form-input md:w-full md:px-12 py-2 rounded md:mb-3 text-sm font-bold" placeholder="">
+                          <Icon name="uil:search" class="absolute left-0 top-0 md:mt-3 md:ml-5" />
                       </div>
-                      <div class="justify-between max-w-md">
-                        <span class="py-1 px-3 text-xs bg-gray-100 mx-4">HOME</span>
-                        <span class="py-1 px-3 text-xs bg-gray-100 mx-4">OFFICE</span>
-                        <span class="py-1 px-3 text-xs bg-gray-100 mx-4">WAREHOUSE</span>
+                      <div class="md:justify-between max-w-md">
+                        <span class="py-1 md:px-3 text-xs bg-gray-100 mx-4">HOME</span>
+                        <span class="py-1 md:px-3 text-xs bg-gray-100 mx-4">OFFICE</span>
+                        <span class="py-1 md:px-3 text-xs bg-gray-100 mx-4">WAREHOUSE</span>
                       </div>
                     </div>
                     
                     <div class="mx-auto mb-5">
                       <label class="mb-2 text-sm">To</label>
                       <div class="relative">
-                          <input type="text" class="form-input w-full px-12 py-2 rounded mb-3 text-sm font-bold" placeholder="">
-                          <Icon name="uil:search" class="absolute left-0 top-0 mt-3 ml-5" />
+                          <input type="text" class="form-input md:w-full md:px-12 py-2 rounded mb-3 text-sm font-bold" placeholder="">
+                          <Icon name="uil:search" class="absolute left-0 top-0 md:mt-3 md:ml-5" />
                       </div>
                     </div>
-                    <button type="submit" class="px-6 p-2 text-white bg-buttonPrimaryColor rounded self-baseline float-right">Next</button>
+                    <button type="submit" class="md:px-6 p-2 text-white bg-buttonPrimaryColor rounded self-baseline float-right">Next</button>
                   </form>
                 </div>
                 <hr class="w-3/4 mx-auto mb-5" />

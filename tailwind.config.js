@@ -7,6 +7,15 @@ module.exports = {
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
   ],
+  buildModules: [
+    '@nuxtjs/google-fonts'
+  ],
+  googlefonts: {
+      families: {
+        Rubik: [700, 400, 200], 
+        Karla: [700, 400, 200]
+      }
+  },
   theme: {
     screens: {
       sm: '480px',
@@ -29,8 +38,8 @@ module.exports = {
       
     },
     fontFamily: {
-      'sans': ['rubik'],
-      'serif': ['karla']
+      'sans': ['Rubik'],
+      'serif': ['Karla']
     }
   },
   plugins: [

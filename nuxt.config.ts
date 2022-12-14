@@ -22,12 +22,10 @@ export default defineNuxtConfig({
     ],
     modules: [
       'nuxt-icon',
-      // '@nuxtjs/google-fonts'
     ],
     buildModules: [
       '@nuxtjs/google-fonts'
     ],
-
     googlefonts: {
         families: {
           Rubik: [700, 400, 200], 
