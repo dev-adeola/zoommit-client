@@ -16,9 +16,9 @@ module.exports = {
     }, 
     extend: {
       colors: {
-        primaryColor: '#1793E735',
+        primaryColor: 'rgba(174, 217, 247, 0.35)',
         secondaryBGColor: '#00D1FF',
-        heroBannerColor: '#1973E735',
+        heroBannerColor: 'rgba(174, 217, 247, 0.35)',
         textColor: '#1793E7',
         buttonPrimaryColor: '#1793E7',
         secondaryTextColor: '#E0E0E0',
@@ -28,6 +28,10 @@ module.exports = {
       },
       
     },
+    fontFamily: {
+      'sans': ['rubik'],
+      'serif': ['karla']
+    }
   },
   plugins: [
     require('@tailwindcss/forms')({

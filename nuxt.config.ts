@@ -28,4 +28,11 @@ export default defineNuxtConfig({
       '@nuxtjs/google-fonts'
     ],
 
+    googlefonts: {
+        families: {
+          Rubik: [700, 400, 200], 
+          Karla: [700, 400, 200]
+        }
+    }
+
 })
